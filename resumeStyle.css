@@ -308,3 +308,39 @@ header h1
   border-radius: 3vh;
   box-shadow: 0 1px 1px 0 #f7716f, 0 2px 5px 0 #f7716f;
 }
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+  width: 70vw;
+}
+.box {
+  width: 33vw;
+  height: 120px;
+  border: 1px solid #a3b1c3;
+  margin: 0.5vw 0.6vh;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.icon {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lig {
+  color: #333;
+  font-weight: 300;
+}
+.res {
+  height: 70px;
+}
+.t {
+  font-size: 23px;
+  text-align: left;
+}
